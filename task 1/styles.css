@@ -1,0 +1,38 @@
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 12px;
+    margin: 20px;
+    background-color: #f7f7f7;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.btn__text {
+    margin-right: 5px;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    transition: .3s;
+    background-color: #efefef;
+}
+
+.light-icon {
+    display: block;  
+}
+
+.dark-icon {
+    display: none;
+}
+
+
