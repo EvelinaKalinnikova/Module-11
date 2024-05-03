@@ -1,0 +1,39 @@
+.container {
+    width: 300px;
+}
+
+.message-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 10px;
+    border: 4px solid #b3d9ff;
+}
+
+.input {
+    width: 80%;
+}
+
+.chat {
+    margin: 0 10px;
+    padding: 0 10px;
+    height: 240px;
+    background-color: aliceblue;
+    border: 4px solid #b3d9ff;
+    overflow: scroll;
+}
+
+.user-message {
+    text-align: right;
+    
+}
+
+.response {
+    color: #00497e;
+    text-align: left;
+}
+
+.cloud {
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
